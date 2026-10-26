@@ -1,0 +1,131 @@
+/* Reset & Styling Dasar */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f7f6;
+    color: #333333;
+    margin: 0;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+/* Wadah Formulir Utama (Card) */
+.container {
+    background-color: #ffffff;
+    width: 100%;
+    max-width: 650px;
+    padding: 35px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+/* Heading / Judul */
+h2 {
+    color: #2c3e50;
+    margin-top: 0;
+    margin-bottom: 8px;
+    font-size: 22px;
+}
+
+/* Sub-judul (diubah menjadi block agar turun ke bawah) */
+.subtitle {
+    font-size: 14px;
+    color: #666666;
+    margin-bottom: 20px;
+    display: block; 
+}
+
+/* Garis Pembatas */
+hr {
+    border: none;
+    border-top: 1px solid #eeeeee;
+    margin: 0 0 25px 0;
+}
+
+/* Styling Tabel Formulir */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 10px 0;
+}
+
+/* Label / Teks Kiri */
+td b {
+    color: #4a5568;
+    font-size: 14px;
+    display: inline-block;
+    padding-top: 6px;
+}
+
+/* Desain Elemen Input & Textarea */
+input[type="text"],
+input[type="email"],
+textarea {
+    border: 1px solid #cbd5e0;
+    border-radius: 6px;
+    padding: 8px 12px;
+    font-size: 14px;
+    color: #2d3748;
+    background-color: #fafafa;
+    transition: all 0.2s ease-in-out;
+    outline: none;
+}
+
+/* Efek saat Input Ditekan/Fokus */
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+    border-color: #3182ce;
+    background-color: #ffffff;
+    box-shadow: 0 0 0 3px rgba(49, 130, 206, 0.15);
+}
+
+textarea {
+    width: 100%;
+    border-radius: 6px;
+    resize: vertical;
+}
+
+/* Teks Keterangan / Subtext di Bawah Input */
+font[size="1"] {
+    font-size: 12px !important;
+    color: #718096 !important;
+    display: inline-block;
+    margin-top: 4px;
+}
+
+/* Radio Button & Pilihan Tempat Duduk */
+input[type="radio"] {
+    accent-color: #3182ce;
+    margin-right: 6px;
+    vertical-align: middle;
+}
+
+/* Tombol Kirim / Submit */
+input[type="submit"] {
+    background-color: #3182ce;
+    color: #ffffff;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 24px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s, transform 0.1s;
+    width: 100%;
+}
+
+input[type="submit"]:hover {
+    background-color: #2b6cb0;
+}
+
+input[type="submit"]:active {
+    transform: scale(0.99);
+}

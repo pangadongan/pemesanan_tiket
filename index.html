@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Pemesanan Tiket Konser</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2>Tiket ke Konser Terhebat Yang Pernah Ada!</h2>
+        <span class="subtitle">Dapatkan tiket hari ini sebelum terlambat!</span>
+        <hr>
+
+        <form>
+            <table cellpadding="6" cellspacing="0" border="0">
+                <!-- Nama -->
+                <tr>
+                    <td valign="top"><b>Nama</b></td>
+                    <td>
+                        <input type="text" size="15"> 
+                        <input type="text" size="15"><br>
+                        <font size="1" color="#666666">Nama Depan &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Nama Belakang</font>
+                    </td>
+                </tr>
+
+                <!-- E-mail -->
+                <tr>
+                    <td valign="top"><b>E-mail</b></td>
+                    <td>
+                        <input type="email" size="35" placeholder="contoh: nama@contoh.com"><br>
+                        <font size="1" color="#666666">contoh@contoh.com</font>
+                    </td>
+                </tr>
+
+                <!-- Nomor Telepon -->
+                <tr>
+                    <td valign="top"><b>Nomor Telepon</b></td>
+                    <td>
+                        <input type="text" size="12"> - 
+                        <input type="text" size="18"><br>
+                        <font size="1" color="#666666">Kode Area &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Nomor Telepon</font>
+                    </td>
+                </tr>
+
+                <!-- Pilihan Tempat Duduk -->
+                <tr>
+                    <td valign="top"><b>Pilihan tempat duduk</b></td>
+                    <td>
+                        <input type="radio" name="duduk"> Panggung Depan<br>
+                        <input type="radio" name="duduk"> Tengah<br>
+                        <input type="radio" name="duduk"> Balkon<br>
+                        <input type="radio" name="duduk"> <input type="text" size="15" placeholder="Lainnya">
+                    </td>
+                </tr>
+
+                <!-- Jumlah Tiket -->
+                <tr>
+                    <td valign="top"><b>Jumlah Tiket</b></td>
+                    <td>
+                        <input type="text" size="8" placeholder="contoh:">
+                    </td>
+                </tr>
+
+                <!-- Ada pertanyaan? -->
+                <tr>
+                    <td valign="top"><b>Ada pertanyaan?</b></td>
+                    <td>
+                        <textarea rows="5" cols="35" placeholder="Ketik di sini..."></textarea>
+                    </td>
+                </tr>
+
+                <!-- Tombol Submit -->
+                <tr>
+                    <td></td>
+                    <td>
+                        <br>
+                        <input type="submit" value="Dapatkan Tiket!">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+
+</body>
+</html>
